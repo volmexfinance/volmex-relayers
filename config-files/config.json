@@ -1,0 +1,74 @@
+{
+  "name": "Volmex Perpetual Relayer N1",
+  "service": {
+    "host": "0.0.0.0",
+    "port": "8080"
+  },
+  "logger-level": "debug",
+  "sqlite_file_name": "test1.db",
+  "p2p_config": {
+    "listen_addresses": [
+      "/ip4/0.0.0.0/tcp/10015",
+      "/ip6/::/tcp/10015"
+    ],
+    "bootstrap_nodes": ["/ip4/34.107.28.246/tcp/10015/p2p/16Uiu2HAm5C7jBzj76duZF9WcxQueyEVZBX3BBusiDLwXJax6Wn1A", "/ip4/34.85.69.126/tcp/10015/p2p/16Uiu2HAmUwJjhVzwkTcTPNbd6KJQEE5djVxssbjE72evRQG3n7yc", "/ip4/34.64.179.3/tcp/10015/p2p/16Uiu2HAm871jitfyFtcYPexeNE5dLwtFuPZ68yvdNQqNDHCL9rvw", "/ip4/35.238.61.118/tcp/10015/p2p/16Uiu2HAm3HGcWzwnSkV6qDkScz4XjrPpt66tBGUKT8CJMfFDEAfF", "/ip4/18.143.189.27/tcp/10015/p2p/16Uiu2HAmBz4tuVku6Q7yxAv8Mk1kPYpGEqY2LfxAY4Ai8rJNPe6u", "/ip4/54.177.175.220/tcp/10015/p2p/16Uiu2HAkyzsPSkUGJmYCbggtddoeaEfDvpnbJNDjx1EeHnFwSaxe", "/ip4/13.235.255.237/tcp/10015/p2p/16Uiu2HAmHSDzCZi6hRvEvTfgzLZHcHrufqRyG26DqCLkrTN49Ctr", "/ip4/15.156.94.219/tcp/10015/p2p/16Uiu2HAkxWkkWNg6cAQFx8f9RUwjeiBbWexxRvw9goNSJceDGBrE", "/ip4/18.133.117.250/tcp/10015/p2p/16Uiu2HAm5itCCkqX1qRf9NYT3Y3DVM2SeL6X5tYhimitsfwCu2Rq"],
+    "discovery_methods": ["dht"],
+    "discovery_tag": "discovery"
+  },
+  "matching_config": {
+    "max_fail_allowed": 2,
+    "leader": false,
+    "minimum_balance":"200000000000000000"
+  },
+  "node_details": {
+    "relayer_name": "YOUR_RELAYER_NAME",
+    "worker_addr": "YOUR_WHITELISTED_WALLET_ADDRESS",
+    "private_key": "YOUR_WHITELISTED_WALLET_PRIVATE_KEY"
+  },
+  "chains": [
+   "BSG"
+  ],
+  "workers": {
+    "BSG": {
+      "chain_id": 84531,
+      "provider": "https://goerli.base.org",
+      "spare_provider": "",
+      "periphery_contract": "0x4C333EE98201D1062E9f7c2404a6c48fD7B67D87",
+      "positioning_contract": "0xD83d5bfF0B20D7eB34125B86879Cbd2Fc047a741",
+      "matching_engine_contract": "0x08c37AC1a265e156f4f88C0f06eBfc258D134B47",
+      "market_registry_contract": "0x9DD0f5797fDf18B534a7Ac85fE2f3cd8E0d2E688",
+      "perpetual_oracle": "0x26AC26788bd7fdEd6B1AB70629214C2Aa211d8c9",
+      "gnosis_contract": "0xeF4E6716794E7FdCC08244866F193c2BA3990906",
+      "worker_addr": "YOUR_WHITELISTED_WALLET_ADDRESS",
+      "gas_limit": 2100000,
+      "gas_price": 1,
+      "fetch_interval": 2,
+      "start_block_height": 0
+    },
+    "ARB": {
+      "chain_id": 421613,
+      "provider": "",
+      "spare_provider": "",
+      "periphery_contract": "0xb68C04A6AD25E4A5F5CF97BE582E77CF9795371f",
+      "positioning_contract": "0xb7AB7435c7Cf10d646C6707386B9439E3b7067e1",
+      "matching_engine_contract": "0xbFAaa37A0bEb5B228B92CA710224dA9299be20a2",
+      "perpetual_oracle": "0xeEa55e19b03E1257B624C6DCEDA3F0506C8a6EA0",
+      "gnosis_contract": "0x572Fc45440417e7cA66EeDb7a6d4f40F409C5401",
+      "worker_addr": "YOUR_WHITELISTED_WALLET_ADDRESS",
+      "gas_limit": 210000000,
+      "gas_price": 1,
+      "fetch_interval": 2,
+      "start_block_height": 0
+    }
+  },
+  "storage": {
+    "url": "host=%s port=%d user=%s dbname=%s password=%s sslmode=%s",
+    "host": "db",
+    "port": 5432,
+    "ssl_mode": "disable",
+    "driver": "postgres",
+    "db_name": "postgres",
+    "user": "postgres",
+    "password": "postgres"
+  }
+}

@@ -1,0 +1,39 @@
+version: '2'
+services:
+  db:
+    image: "timescale/timescaledb:latest-pg13"
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    command: ["postgres", "-c", "shared_preload_libraries=timescaledb"]  
+    volumes:
+      - relayer_data:/var/lib/postgresql/data
+
+  perp-relayer:
+    image: "volmexlabs/relayer:latest"
+    depends_on:
+      - db
+    stdin_open: true
+    volumes:
+      - ./config-files:/config-files
+    ports:
+      - "80:8080"
+      - "10015:10015"
+    tty: true
+    restart: on-failure
+    environment:
+      - FILE_PATH=/config-files/
+      - FILE_NAME=config.json
+      # Enable go-libp2p logging (See 'go-log': https://github.com/ipfs/go-log)
+      - GOLOG_LOG_LEVEL=info # debug,basichost=info,p2p-config=info,dht=info
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1000m"
+        max-file: "3"
+volumes:
+  relayer_data:

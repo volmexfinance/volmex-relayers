@@ -36,7 +36,7 @@ Create an ethereum address. For example, this can be achieved using [Metamask](h
 
 Currently, there is a whitelist requirement, may be replaced in the future, for running nodes on the testnet. In order to be whitelisted, you will need to send a request to relayers@volmexlabs.com
 
-### Clone repository
+#### Clone repository
 
 Please clone the current respository on your machine:
 

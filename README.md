@@ -52,6 +52,8 @@ Edit the `config-files/config.json` file and update the parameters with your own
 
 The configuration of the node is all set up inside a config.json file. Please email relayers@volmexlabs.com for more information.
 
+Note: The wallet attached to the relayer will need gas tokens to submit orders to contract.
+
 ### Ports
 
 Network configuration will be specific to your individual set up. Generally, you want to ensure that the following ports are open (if you are using the default ones):

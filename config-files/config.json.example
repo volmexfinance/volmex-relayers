@@ -33,9 +33,9 @@
     "minimum_balance": "200000000000000000"
   },
   "node_details": {
-    "relayer_name": "MY_RELAYER",
-    "worker_addr": "0xF627D894E44eF6b07512af85F7b7Efe7B3f900d8",
-    "private_key": "f9485e2b88ac43d98add311b3ab16082fd5e78517e4ab4ca28c3a23281ab40da"
+    "relayer_name": "RELAYER_NAME",
+    "worker_addr": "WALLET_ADDRESS",
+    "private_key": "WALLET_PRIVATE_KEY"
   },
   "chains": [
     "BSG"
@@ -51,7 +51,7 @@
       "market_registry_contract": "0xc34DEada1C1824D96AE8ca68503F784ac5593737",
       "perpetual_oracle": "0x8cc2E7529D3e88300174B089ba325C4F06572844",
       "gnosis_contract": "0xBaC2F984DDaaFD2ad2FDCA335A9d157D9c41C7de",
-      "worker_addr": "0xF627D894E44eF6b07512af85F7b7Efe7B3f900d8",
+      "worker_addr": "WALLET_ADDRESS",
       "gas_limit": 2100000,
       "gas_price": 1,
       "fetch_interval": 2,
@@ -66,7 +66,7 @@
       "matching_engine_contract": "0xa6E0C3924cE79A362D6455ABC9C5872fF8e3b035",
       "perpetual_oracle": "0x4C6f45bc479927f3A1C26217c125Bf089Bd72dAD",
       "gnosis_contract": "0xd32d7fE48a50C26E20fA78A5c4A231877971fF0E",
-      "worker_addr": "0xF627D894E44eF6b07512af85F7b7Efe7B3f900d8",
+      "worker_addr": "WALLET_ADDRESS",
       "gas_limit": 210000000,
       "gas_price": 1,
       "fetch_interval": 2,

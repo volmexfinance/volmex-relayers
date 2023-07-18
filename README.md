@@ -44,11 +44,13 @@ Please clone the current respository on your machine:
 
 #### Node Configuration
 
-Edit the `config-files/config.json` file and update the parameters with your own information:
+Copy `.env.example` to `.env` and edit the `.env` file and update the parameters with your own information:
 
-- `"relayer_name": "YOUR_RELAYER_NAME"`
-- `"worker_addr": "YOUR_WHITELISTED_WALLET_ADDRESS"`
-- `"private_key": "YOUR_WHITELISTED_WALLET_PRIVATE_KEY"`
+`RELAYER_NAME`="YOUR_RELAYER_NAME"
+`WALLET_ADDRESS`="YOUR_WHITELISTED_WALLET_ADDRESS"
+`WALLET_PRIVATE_KEY`="YOUR_WHITELISTED_WALLET_PRIVATE_KEY"
+
+Run command: `make config`
 
 The configuration of the node is all set up inside a config.json file. Please email relayers@volmexlabs.com for more information.
 
@@ -67,11 +69,11 @@ Network configuration will be specific to your individual set up. Generally, you
 
 To run the relayer in daemon mode, execute the command provided below:
 
-- `docker compose up -d`
+- `make run-relayer`
 
 ### Upgrade Node
 
 To reach a consensus, it is necessary to ensure that the node is always updated to the latest version.
 
-- `docker compose pull`
-- `docker compose up -d`
+- `git pull`
+- `make upgrade-relayer`

@@ -9,13 +9,13 @@ config:
 	@sed -i '' -e s/WALLET_PRIVATE_KEY/$(WALLET_PRIVATE_KEY)/g config-files/config.json
 	@echo "Done"
 
-run-relayer:
+run-node:
 	@echo "Creating and starting relayer containers..."
 	@echo "Please wait..."
 	@docker-compose up -d
 	@echo "Done"
 
-upgrade-relayer:
+upgrade-node:
 	@echo "Upgrading relayer containers"
 	@echo "Please wait..."
 	@git pull

@@ -71,10 +71,10 @@ Network configuration will be specific to your individual set up. Generally, you
 
 To run the relayer in daemon mode, execute the command provided below:
 
-- `make run-relayer`
+- `make run-node`
 
 ### Upgrade Node
 
 To reach a consensus, it is necessary to ensure that the node is always updated to the latest version.
 
-- `make upgrade-relayer`
+- `make upgrade-node`

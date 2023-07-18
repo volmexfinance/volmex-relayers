@@ -18,6 +18,7 @@ run-relayer:
 upgrade-relayer:
 	@echo "Upgrading relayer containers"
 	@echo "Please wait..."
+	@git pull
 	@make config
 	@docker-compose pull
 	@docker-compose up -d

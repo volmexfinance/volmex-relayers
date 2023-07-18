@@ -47,7 +47,9 @@ Please clone the current respository on your machine:
 Copy `.env.example` to `.env` and edit the `.env` file and update the parameters with your own information:
 
 `RELAYER_NAME`="YOUR_RELAYER_NAME"
+
 `WALLET_ADDRESS`="YOUR_WHITELISTED_WALLET_ADDRESS"
+
 `WALLET_PRIVATE_KEY`="YOUR_WHITELISTED_WALLET_PRIVATE_KEY"
 
 Run command: `make config`
@@ -75,5 +77,4 @@ To run the relayer in daemon mode, execute the command provided below:
 
 To reach a consensus, it is necessary to ensure that the node is always updated to the latest version.
 
-- `git pull`
 - `make upgrade-relayer`

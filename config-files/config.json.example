@@ -57,7 +57,7 @@
     },
     "ARB": {
       "chain_id": 421613,
-      "provider": "https://arbitrum-goerli.publicnode.com",
+      "provider": "https://goerli-rollup.arbitrum.io/rpc",
       "spare_provider": "",
       "periphery_contract": "0xB00eBcd9112dC48ced5F2f4cF668A99A3f5DdE14",
       "market_registry_contract": "0xa4AF52b8Fd366e18A1Fc5b1032bDD84d8bCe1616",

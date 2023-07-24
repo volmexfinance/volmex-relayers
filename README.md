@@ -78,3 +78,7 @@ To run the relayer in daemon mode, execute the command provided below:
 To reach a consensus, it is necessary to ensure that the node is always updated to the latest version.
 
 - `make upgrade-node`
+
+### Notes
+
+In order to participate in the transaction matching process, you will need to fund the address associated with the relayer with at least 0.2 ETH.

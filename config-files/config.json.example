@@ -25,7 +25,8 @@
     "discovery_methods": [
       "dht"
     ],
-    "discovery_tag": "discovery"
+    "discovery_tag": "discovery",
+    "enable_sync": true
   },
   "matching_config": {
     "max_fail_allowed": 2,

@@ -25,13 +25,10 @@
     "discovery_methods": [
       "dht"
     ],
-    "discovery_tag": "discovery",
     "enable_sync": true
   },
   "matching_config": {
-    "max_fail_allowed": 2,
     "leader": false,
-    "minimum_balance": "200000000000000000"
   },
   "node_details": {
     "relayer_name": "RELAYER_NAME",

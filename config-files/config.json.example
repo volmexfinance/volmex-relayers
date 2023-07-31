@@ -28,7 +28,7 @@
     "enable_sync": true
   },
   "matching_config": {
-    "leader": false,
+    "leader": false
   },
   "node_details": {
     "relayer_name": "RELAYER_NAME",

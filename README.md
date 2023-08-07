@@ -42,6 +42,8 @@ Please clone the current respository on your machine:
 
 `git clone https://github.com/volmexfinance/volmex-relayers.git`
 
+`cd volmex-relayers`
+
 #### Node Configuration
 
 Copy `.env.example` to `.env` and edit the `.env` file and update the parameters with your own information:

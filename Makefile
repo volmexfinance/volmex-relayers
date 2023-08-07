@@ -12,7 +12,7 @@ config:
 run-node:
 	@echo "Creating and starting relayer containers..."
 	@echo "Please wait..."
-	@docker-compose up -d
+	@docker compose up -d
 	@echo "Done"
 
 upgrade-node:
@@ -20,6 +20,6 @@ upgrade-node:
 	@echo "Please wait..."
 	@git pull
 	@make config
-	@docker-compose pull
-	@docker-compose up -d
+	@docker compose pull
+	@docker compose up -d
 	@echo "Done"

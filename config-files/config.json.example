@@ -12,15 +12,16 @@
       "/ip6/::/tcp/10015"
     ],
     "bootstrap_nodes": [
-      "/ip4/34.107.28.246/tcp/10015/p2p/16Uiu2HAm5C7jBzj76duZF9WcxQueyEVZBX3BBusiDLwXJax6Wn1A",
-      "/ip4/34.85.69.126/tcp/10015/p2p/16Uiu2HAmUwJjhVzwkTcTPNbd6KJQEE5djVxssbjE72evRQG3n7yc",
-      "/ip4/34.64.179.3/tcp/10015/p2p/16Uiu2HAm871jitfyFtcYPexeNE5dLwtFuPZ68yvdNQqNDHCL9rvw",
-      "/ip4/35.238.61.118/tcp/10015/p2p/16Uiu2HAm3HGcWzwnSkV6qDkScz4XjrPpt66tBGUKT8CJMfFDEAfF",
-      "/ip4/18.143.189.27/tcp/10015/p2p/16Uiu2HAmBz4tuVku6Q7yxAv8Mk1kPYpGEqY2LfxAY4Ai8rJNPe6u",
-      "/ip4/54.177.175.220/tcp/10015/p2p/16Uiu2HAkyzsPSkUGJmYCbggtddoeaEfDvpnbJNDjx1EeHnFwSaxe",
-      "/ip4/13.235.255.237/tcp/10015/p2p/16Uiu2HAmHSDzCZi6hRvEvTfgzLZHcHrufqRyG26DqCLkrTN49Ctr",
-      "/ip4/15.156.94.219/tcp/10015/p2p/16Uiu2HAkxWkkWNg6cAQFx8f9RUwjeiBbWexxRvw9goNSJceDGBrE",
-      "/ip4/18.133.117.250/tcp/10015/p2p/16Uiu2HAm5itCCkqX1qRf9NYT3Y3DVM2SeL6X5tYhimitsfwCu2Rq"
+      "/ip4/34.107.28.246/tcp/10015/p2p/16Uiu2HAkyGbWicFkY9CmzY9PgtBwJ4nFRdd3a38Q2eZVoJrUZRJz",
+      "/ip4/34.85.69.126/tcp/10015/p2p/16Uiu2HAm7YJCNpv7j3NhheHHT5RN8JHeVAqLd4yjScxrxJNYGq4W",
+      "/ip4/34.64.176.106/tcp/10015/p2p/16Uiu2HAmH4XvBM6iVuXr4mqpAkFhJpKRntCHpWC6S1DzHccBF8e2",
+      "/ip4/35.238.61.118/tcp/10015/p2p/16Uiu2HAm3N6Vrm8z9HeeBaNGBkZRKHemFdCB5fuGjtPjTzb7eoV5",
+      "/ip4/34.168.219.129/tcp/10015/p2p/16Uiu2HAmC4fG4dsMLr6RfD9RcbUY1gRh8U2TAJBVWU7PzAhaWZcy",
+      "/ip4/18.143.189.27/tcp/10015/p2p/16Uiu2HAm3noao6CWZXUYQK3VtZwdyWZgdfUNrKqrT4HGXQg6Gdyf",
+      "/ip4/54.177.175.220/tcp/10015/p2p/16Uiu2HAmPk8oZeV4PLGSpinnEr232TkPMMJiSPujRUG6zu43i3Vq",
+      "/ip4/13.235.255.237/tcp/10015/p2p/16Uiu2HAmRZoiyX7MpaDxBAmwzkZuFH2YYRzYMbhoMZEX3ATmRxia",
+      "/ip4/15.156.94.219/tcp/10015/p2p/16Uiu2HAmL177at71cU4Ygwg3XmejXCp9vz9qQVBLnMp8gm2LZBrZ",
+      "/ip4/18.133.117.250/tcp/10015/p2p/16Uiu2HAmSoH3pahy3RDGTBe6d3oohCKqHsU9dL6UXGqJ7cR2kSu7"
     ],
     "discovery_methods": [
       "dht"

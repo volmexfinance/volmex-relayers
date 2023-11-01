@@ -5,6 +5,7 @@
     "port": "8080"
   },
   "logger-level": "debug",
+  "sdn_list": "https://www.treasury.gov/ofac/downloads/sdn.xml",
   "sqlite_file_name": "test1.db",
   "p2p_config": {
     "listen_addresses": [
@@ -44,9 +45,9 @@
       "chain_id": 84531,
       "provider": "https://goerli.base.org",
       "spare_provider": "",
-      "periphery_contract": "0xf5f0a9c36a5d9BF42a340619C4384f3521A49128",
-      "market_registry_contract": "0xDB262079f0241818Fee37694E63BAEe7aF477e7a",
-      "perpetual_oracle": "0x0d42B14D68d8fc0e7D8415DB0b0AfE832D965021",
+      "periphery_contract": "0xa1525FC5D7319Ba4731C6599ACeb5FAC98d9422b",
+      "market_registry_contract": "0xD70E0f261d4C307DBaDA4f77d47e5D5F92722672",
+      "perpetual_oracle": "0x3f88FbaD3CaFF1b1578b4b3df38d32cFC724285d",
       "gnosis_contract": "0xBaC2F984DDaaFD2ad2FDCA335A9d157D9c41C7de",
       "worker_addr": "WALLET_ADDRESS",
       "gas_limit": 2100000,
@@ -58,7 +59,7 @@
       "chain_id": 421613,
       "provider": "https://goerli-rollup.arbitrum.io/rpc",
       "spare_provider": "",
-      "periphery_contract": "0x95954d356f9FB7806f8eeeE03474A95561c58ddA",
+      "periphery_contract": "0x03C35Fe7d2337a0094bd5a9f85662DFD8EF96003",
       "market_registry_contract": "0x596a79a441Ad4cc3eC56a59c251298B6aEb5F444",
       "gnosis_contract": "0xd32d7fE48a50C26E20fA78A5c4A231877971fF0E",
       "worker_addr": "WALLET_ADDRESS",

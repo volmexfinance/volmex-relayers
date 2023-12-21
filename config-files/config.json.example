@@ -14,7 +14,6 @@
     ],
     "bootstrap_nodes": [
       "/ip4/34.107.28.246/tcp/10015/p2p/16Uiu2HAkyGbWicFkY9CmzY9PgtBwJ4nFRdd3a38Q2eZVoJrUZRJz",
-      "/ip4/34.85.69.126/tcp/10015/p2p/16Uiu2HAm7YJCNpv7j3NhheHHT5RN8JHeVAqLd4yjScxrxJNYGq4W",
       "/ip4/34.64.176.106/tcp/10015/p2p/16Uiu2HAmH4XvBM6iVuXr4mqpAkFhJpKRntCHpWC6S1DzHccBF8e2",
       "/ip4/35.238.61.118/tcp/10015/p2p/16Uiu2HAm3N6Vrm8z9HeeBaNGBkZRKHemFdCB5fuGjtPjTzb7eoV5",
       "/ip4/34.168.219.129/tcp/10015/p2p/16Uiu2HAmC4fG4dsMLr6RfD9RcbUY1gRh8U2TAJBVWU7PzAhaWZcy",
@@ -35,34 +34,33 @@
   "node_details": {
     "relayer_name": "RELAYER_NAME",
     "worker_addr": "WALLET_ADDRESS",
-    "private_key": "WALLET_PRIVATE_KEY"
+    "private_key": "WALLET_PRIVATE_KEY",
+    "single_market_keys": ["WALLET_PRIVATE_KEY"]
   },
   "chains": [
     "BSG"
   ],
   "workers": {
     "BSG": {
-      "chain_id": 84531,
-      "provider": "https://goerli.base.org",
-      "spare_provider": "",
-      "periphery_contract": "0x04869AE4268CB74fad0C619CB4Ae1eaEec9a4A18",
-      "market_registry_contract": "0xF2a1251ed3825E279f42AADf8594393c2188DF20",
-      "perpetual_oracle": "0xCD51e4Bbef16e90364ecAd6C0e1F0450f1E511f7",
+    "chain_id": 84531,
+      "provider": "https://icy-fabled-meadow.base-goerli.quiknode.pro/5552ae4af262e5dca077a7a9c26b3cb484599925/",
+      "spare_provider": "https://still-dawn-bush.base-goerli.quiknode.pro/d06a40e76d05f644d2f9dacd2e56818a4fb4af8d/",
+      "periphery_contract": "0xB1535E406c90EB52B7E344778253B92055ddC2a5",
+      "perpetual_oracle": "0x677AF2a1EDa2A9DbB61a7c0B7f4d77c6B19635f1",
       "gnosis_contract": "0xBaC2F984DDaaFD2ad2FDCA335A9d157D9c41C7de",
-      "worker_addr": "WALLET_ADDRESS",
+      "worker_addr": "",
       "gas_limit": 2100000,
       "gas_price": 1,
       "fetch_interval": 2,
       "start_block_height": 0
     },
     "ARB": {
-      "chain_id": 421613,
-      "provider": "https://goerli-rollup.arbitrum.io/rpc",
+      "chain_id": 421614,
+      "provider": "",
       "spare_provider": "",
-      "periphery_contract": "0xd014699A2Eb4F233C35720911d45b086E5FC1b5b",
-      "market_registry_contract": "0x51Db85F76a601d7bF618110808216F4e1884E58D",
-      "gnosis_contract": "0xd32d7fE48a50C26E20fA78A5c4A231877971fF0E",
-      "worker_addr": "WALLET_ADDRESS",
+      "periphery_contract": "0xd578318967ECE79EEeAa458A8C99962058Fe6232",
+      "gnosis_contract": "0x2cE02EebDbfcA1cE2C063651E12d3B0F01ceF2eD",
+      "worker_addr": "",
       "gas_limit": 210000000,
       "gas_price": 1,
       "fetch_interval": 2,

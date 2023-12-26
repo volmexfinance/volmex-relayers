@@ -43,8 +43,8 @@
   "workers": {
     "BSG": {
     "chain_id": 84531,
-      "provider": "https://icy-fabled-meadow.base-goerli.quiknode.pro/5552ae4af262e5dca077a7a9c26b3cb484599925/",
-      "spare_provider": "https://still-dawn-bush.base-goerli.quiknode.pro/d06a40e76d05f644d2f9dacd2e56818a4fb4af8d/",
+      "provider": "",
+      "spare_provider": "https://goerli.base.org",
       "periphery_contract": "0xB1535E406c90EB52B7E344778253B92055ddC2a5",
       "perpetual_oracle": "0x677AF2a1EDa2A9DbB61a7c0B7f4d77c6B19635f1",
       "gnosis_contract": "0xBaC2F984DDaaFD2ad2FDCA335A9d157D9c41C7de",

@@ -13,10 +13,7 @@
       "/ip6/::/tcp/10015"
     ],
     "bootstrap_nodes": [
-      "/ip4/34.107.28.246/tcp/10015/p2p/16Uiu2HAkyGbWicFkY9CmzY9PgtBwJ4nFRdd3a38Q2eZVoJrUZRJz",
-      "/ip4/34.64.176.106/tcp/10015/p2p/16Uiu2HAmH4XvBM6iVuXr4mqpAkFhJpKRntCHpWC6S1DzHccBF8e2",
-      "/ip4/35.238.61.118/tcp/10015/p2p/16Uiu2HAm3N6Vrm8z9HeeBaNGBkZRKHemFdCB5fuGjtPjTzb7eoV5",
-      "/ip4/34.168.219.129/tcp/10015/p2p/16Uiu2HAmC4fG4dsMLr6RfD9RcbUY1gRh8U2TAJBVWU7PzAhaWZcy",
+      "/ip4/35.221.105.3/tcp/10015/p2p/16Uiu2HAkyGbWicFkY9CmzY9PgtBwJ4nFRdd3a38Q2eZVoJrUZRJz",
       "/ip4/18.143.189.27/tcp/10015/p2p/16Uiu2HAm3noao6CWZXUYQK3VtZwdyWZgdfUNrKqrT4HGXQg6Gdyf",
       "/ip4/54.177.175.220/tcp/10015/p2p/16Uiu2HAmPk8oZeV4PLGSpinnEr232TkPMMJiSPujRUG6zu43i3Vq",
       "/ip4/13.235.255.237/tcp/10015/p2p/16Uiu2HAmRZoiyX7MpaDxBAmwzkZuFH2YYRzYMbhoMZEX3ATmRxia",
